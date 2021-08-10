@@ -629,6 +629,7 @@ public class FaweCache {
             case 129:
             case 133:
             case 138:
+            case 139:
             case 140:
             case 165:
             case 166:
@@ -636,6 +637,14 @@ public class FaweCache {
             case 172:
             case 173:
             case 174:
+            case 532:
+            case 533:
+            case 542:
+            case 552:
+            case 637:
+            case 641:
+            case 645:
+            case 649:
                 return false;
             default:
                 return true;
@@ -912,14 +921,6 @@ public class FaweCache {
             case 250:
             case 251:
             case 252:
-            case 532:
-            case 533:
-            case 542:
-            case 552:
-            case 637:
-            case 641:
-            case 645:
-            case 649:
                 return false;
             default:
                 return id > 252;
